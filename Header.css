@@ -40,19 +40,8 @@ header {
     background-color: rgb(53, 134, 255);
     color: rgb(255, 255, 255);
   }
-  code{
-    color: rgb(67, 134, 0);
-  }
 
-  .examples{
-    border: black;
-    border-style: solid;
-    font-size: 10px;
-    background-color: lightgrey;
-    padding-top: 20px;
-    
-  }
-  
+
   h3{
     color: rgb(100, 132, 237);
     font-size: 25px;
