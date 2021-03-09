@@ -28,17 +28,15 @@ header {
   
   }
 
-
-.topnav a {
+  .topnav a {
     float: left;
     display: block;
-    color: #e46ffc;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 150%;
   }
-
 
   .topnav a:hover {
     background-color: rgb(53, 134, 255);
