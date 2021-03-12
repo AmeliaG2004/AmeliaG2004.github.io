@@ -17,9 +17,7 @@ header {
     
   }
 
-  code{
-    color: rgb(132, 67, 206);
-  }
+
 
 
     
@@ -43,7 +41,10 @@ header {
     background-color: rgb(53, 134, 255);
     color: rgb(255, 255, 255);
   }
-
+  
+  code{
+    color: rgb(132, 67, 206);
+  }
   .examples{
     border: 10px solid black;
     font-size: 15px;
