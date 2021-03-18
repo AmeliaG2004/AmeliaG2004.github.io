@@ -12,29 +12,8 @@ header {
     }
   
   
-.column_side{
-  border: 10px solid black;
-  font-size: 15px;
-  background-color: lightgrey;
-  padding: 50px;
-  margin: 20px;
-  width: 750px;
-}
-.column_middle{
-  border: 10px solid black;
-  font-size: 15px;
-  background-color: lightgrey;
-  padding: 50px;
-  margin: 20px;
-  width: 750px;
-}.column_side2{
-  border: 10px solid black;
-  font-size: 15px;
-  background-color: lightgrey;
-  padding: 50px;
-  margin: 20px;
-  width: 750px;
-}
+
+
   
       
 .topnav {
