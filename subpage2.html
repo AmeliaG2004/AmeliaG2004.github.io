@@ -7,18 +7,46 @@
 <style>
 
 ::-moz-selection {
-      color: rgb(0, 153, 255);
-      background: rgb(204, 0, 255);
-    }
+    color: rgb(0, 153, 255);
+    background: rgb(204, 0, 255);
+  }
 
-    ::selection {
-      color: rgb(0, 153, 255);
-      background: rgb(204, 0, 255);
-    }
+  ::selection {
+    color: rgb(0, 153, 255);
+    background: rgb(204, 0, 255);
+  }
 
-    body {
-      margin: 0;
+  body {
+    margin: 0;
+  }
+
+  .column {
+    float: left;
+    padding: 10px;
+  }
+
+
+  .column.side {
+    width: 25%;
+  }
+
+
+  .column.middle {
+    width: 50%;
+  }
+
+
+  row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
     }
+  }
 
 </style>
 </head>
@@ -42,7 +70,23 @@
         <a href="index.html" style="float:right" >Home Page</a>
         </strong>
     </div>
-
+    <div class="row">
+      <div class="column side">
+        <h2>Side</h2>
+        <p>Side column</p>
+      </div>
+      
+      <div class="column middle">
+        <h2>Main Content</h2>
+        <p>Middle column</p>
+      </div>
+      
+      <div class="column side">
+        <h2>Side</h2>
+        <p>Side column</p>
+      </div>
+    </div>
+    
     <div class="footer">
         <p5>This is a footer</p5>
     </div>
